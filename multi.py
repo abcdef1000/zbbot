@@ -151,6 +151,8 @@ def do(n):
 		print(e)
 		driver.quit()
 		return get
+	finally:
+		driver.quit()
 
 start = int(input("Which passage do you want to start at?: "))
 end = int(input("Which passage do you want to end at?: (multiples of hundred)"))
