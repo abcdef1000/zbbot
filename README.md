@@ -1,3 +1,8 @@
+# Download
+```git clone https://github.com/abcdef1000/zbbot.git```
+or download with the "Code" button
+
+
 # Linux Installation Instructions
 1. Download geckodriver from [here](https://github.com/mozilla/geckodriver/releases) (Firefox may also need to be installed on your system before running)
 2. Make the driver an executable using the command:```chmod +x geckodriver```
