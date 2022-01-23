@@ -12,7 +12,7 @@ or download with the "Code" button
 pip install pypinyin
 pip install selenium
 ```
-6. Run the python file with the command:```python3 multi.py```
+6. Run the python file with the command:```python3 displayedmain.py```
 
 
 # Windows Installation Instructions
