@@ -146,13 +146,12 @@ def do(n):
 				continue
 			get += answer(x)
 			print(f"{n} BOT: points mined: {get}")
+        driver.quit()
 		return get
 	except Exception as e:
 		print(e)
 		driver.quit()
 		return get
-	finally:
-		driver.quit()
 
 start = int(input("Which passage do you want to start at?: "))
 end = int(input("Which passage do you want to end at?: (multiples of hundred)"))
