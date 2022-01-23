@@ -119,7 +119,7 @@ def do(n, nd):
 		firefox_profile = FirefoxProfile()
 		firefox_profile.set_preference("permissions.default.image", 2)
 		options.profile = firefox_profile
-		driver = webdriver.Firefox(options=options)
+		driver = webdriver.Firefox(options=options, executable_path='./geckodriver')
 		driver.implicitly_wait(3)
 
 		login()
