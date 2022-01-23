@@ -154,7 +154,7 @@ def do(n, nd):
 		return cnt 
 
 start = int(input("Which passage do you want to start at?: "))
-end = int(input("Which passage do you want to end at?: (multiples of hundred)"))
+end = int(input("Which passage do you want to end at?:"))
 userr = input("What is your username?: ")
 passs = input("What is your password?: ")
 total = 0
