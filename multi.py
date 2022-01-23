@@ -146,7 +146,7 @@ def do(n):
 				continue
 			get += answer(x)
 			print(f"{n} BOT: points mined: {get}")
-        driver.quit()
+	driver.quit()	
 		return get
 	except Exception as e:
 		print(e)
