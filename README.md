@@ -20,8 +20,4 @@ pip install selenium
 2. Add to PATH
 3. Run python file
 
-# Usage details
-Enter the passages you want to do
-Enter your username and password
-Enter the "step" - the amount of passages each process will complete before closing - advised to keep above 20
 
